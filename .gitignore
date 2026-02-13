@@ -1,0 +1,56 @@
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OSX
+.DS_Store
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Expo
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Testing
+/coverage
